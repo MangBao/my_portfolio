@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
-    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.4.2-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/cdnjs.cloudflare.com_ajax_libs_tooltipster_2.3.0_css_reset.min.css">
     <link rel="stylesheet" href="./assets/css/variables.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/hero.css">
 </head>
 
 <body>
@@ -65,15 +66,21 @@
             </nav>
         </div>
         <div id="hero">
-            <div id="particles-js"></div>
+            <div id="tsparticles"></div>
         </div>
-        <div id="about"></div>
+        <div id="about">
+            About me
+        </div>
         <div id="projects"></div>
         <div id="skills"></div>
         <div id="contact"></div>
     </div>
-    <script src="https://vincentgarreau.com/particles/particles.js"></script>
-    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/cdnjs.cloudflare.com_ajax_libs_tsparticles_1.18.1_tsparticles.min.js"
+        integrity="sha512-PYHWDEuXOTJ9MZ+/QHqkbgiEYZ+LImQv3i/9NyYOABFvK37e4q4Wg7aQDN1JpoGiEu1TYZh6JMrZluZox2gbDA=="
+        crossorigin="anonymous"></script>
+    <script type="module" src="./assets/js/particles_options.js"></script>
+    <script type="module" src="./assets/js/main.js"></script>
+
 </body>
 
 </html>

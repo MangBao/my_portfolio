@@ -1,0 +1,19 @@
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#tsparticles {
+    z-index: 4;
+    background: var(--primary-03);
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+    height: 100vh;
+}
