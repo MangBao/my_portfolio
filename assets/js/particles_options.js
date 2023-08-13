@@ -87,7 +87,7 @@ const options = {
           duration: 0.4,
           size: 40,
           color: {
-            value: "#cbbde5",
+            value: "#05edfd",
           },
           opacity: 8,
           mix: false,
