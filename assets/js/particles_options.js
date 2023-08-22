@@ -10,17 +10,17 @@ const options = {
     fpsLimit: 120,
   
     interactivity: {
-      detectsOn: "#hero",
+      detectsOn: ".content-hero",
       events: {
         onDiv: [
           {
-            selectors: "#repulse-div",
+            selectors: ".wrap-hero",
             enable: true,
             mode: "bounce",
             type: "circle",
           },
           {
-            selectors: "#repulse-div",
+            selectors: ".wrap-hero",
             enable: true,
             mode: "repulse",
             type: "circle",
@@ -160,28 +160,28 @@ const options = {
             font: "Font Awesome 6 Brands",
             style: "",
             value: ["\uf13b"],
-            weight: "400",
+            weight: "500",
           },
           {
             fill: true,
             font: "Font Awesome 6 Brands",
             style: "",
             value: ["\uf38b"],
-            weight: "400",
+            weight: "500",
           },
           {
             fill: true,
             font: "Font Awesome 6 Brands",
             style: "",
             value: ["\uf3b9"],
-            weight: "400",
+            weight: "500",
           },
           {
             fill: true,
             font: "Font Awesome 6 Brands",
             style: "",
             value: ["\uf41b"],
-            weight: "400",
+            weight: "500",
           },
         ],
       },
