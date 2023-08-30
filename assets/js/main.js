@@ -10,3 +10,12 @@ menuBar.addEventListener("click", function (e) {
 });
 
 tsParticles.load("tsparticles", particles_options);
+
+// Type animation
+const typeAnimation = new Typed(".type-animation", {
+  strings: ["Front End Developer"],
+  typeSpeed: 60,
+  backSpeed: 60,
+  backDelay: 1000,
+  loop: true
+})
