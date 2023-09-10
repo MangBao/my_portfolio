@@ -3,8 +3,53 @@ html,
 body,
 html * {
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--primary-03);
 }
 
 a {
   text-decoration: none;
+}
+
+.section {
+  padding-left: calc(10vw - 1rem);
+  padding-right: calc(10vw - 1rem);
+  margin-top: 6rem;
+}
+
+.title span {
+  opacity: .8;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--primary-02);
+}
+
+.title h2 {
+  letter-spacing: -.05em;
+  font-size: 2rem;
+  line-height: 1;
+  margin: 5px 0;
+  color: var(--primary-02);
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .title h2 {
+      font-size: 4.5rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1136px) {
+  .section {
+    margin-top: 120px;
+  }
+  .section {
+    padding-left: calc(10vw - 1rem);
+    padding-right: calc(10vw - 1rem);
+    margin-top: 10rem;
+  }
 }
