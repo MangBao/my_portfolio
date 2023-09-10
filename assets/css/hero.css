@@ -76,6 +76,7 @@
     color: var(--white);
     margin-top: calc(6vh - 1rem);
     padding: 5px;
+    min-width: unset;
 }
 
 .social-media a {
