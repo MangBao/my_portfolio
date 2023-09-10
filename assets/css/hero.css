@@ -165,3 +165,10 @@
         flex-direction: unset;
     }
 }
+
+/* Desktop */
+@media (min-width: 1260px) {
+    .wrap-content {
+        min-width: 47.5rem;
+    }
+}
