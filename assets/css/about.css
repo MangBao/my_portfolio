@@ -1,22 +1,22 @@
 #about {}
 
-.title {
-    user-select: none;
-    transform: none;
-}
-
 .about-content-text {
     color: var(--white);
     align-self: center;
 }
 
+.about-content-text p {
+    font-family: Poppins, sans-serif;
+    line-height: 1.25;
+}
+
 .bounce {
-    transition: all .3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .bounce:hover {
     display: inline-block;
-    animation: rubberband .8s ease-out;
+    animation: rubberband 0.8s ease-out;
 }
 
 .about-blob-img {
@@ -25,12 +25,13 @@
     border-collapse: separate;
     background-size: cover;
     background-position: center;
-    outline: 1px solid transparent
+    outline: 1px solid transparent;
 }
 
 .about-content {
     display: flex;
     flex-direction: column-reverse;
+    margin-top: 2.5rem;
 }
 
 /* .about-content-text,
@@ -68,24 +69,36 @@
 .about-content-text,
 .about-content-img {
     width: 100%;
+    align-self: center;
+}
+
+.content-text-title {
+    color: var(--primary-02);
+}
+
+.content-wrap-img {
+    margin: 2rem auto;
 }
 
 /* Tablet */
 @media (min-width: 768px) {
-    .about-content {
-        flex-direction: row;
+    .content-wrap-img {
+        width: 60%;
+        margin: unset auto;
     }
 }
 
 /* Desktop */
 @media (min-width: 1136px) {
-
+    .about-content {
+        flex-direction: row;
+    }
     .about-content-img {
         height: 100%;
     }
 
     .content-wrap-img {
-        height: 260px;
+        height: 300px;
         width: 50%;
     }
 
@@ -97,31 +110,31 @@
 
 @keyframes rubberband {
     0% {
-        transform: scaleX(1)
+        transform: scaleX(1);
     }
 
     40% {
-        transform: scaleX(1.12) scaleY(.75)
+        transform: scaleX(1.12) scaleY(0.75);
     }
 
     55% {
-        transform: scaleX(.85) scaleY(1)
+        transform: scaleX(0.85) scaleY(1);
     }
 
     65% {
-        transform: scaleX(1.09) scaleY(.85)
+        transform: scaleX(1.09) scaleY(0.85);
     }
 
     75% {
-        transform: scaleX(.9) scaleY(1)
+        transform: scaleX(0.9) scaleY(1);
     }
 
     90% {
-        transform: scaleX(1.05) scaleY(.95)
+        transform: scaleX(1.05) scaleY(0.95);
     }
 
     to {
-        transform: scaleX(1) scaleY(1)
+        transform: scaleX(1) scaleY(1);
     }
 }
 
@@ -131,18 +144,18 @@
     to {
         border-radius: 40% 60% 70% 30%/40% 40% 60% 50%;
         -webkit-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
-        -moz-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%
+        -moz-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
     }
 
     34% {
         border-radius: 70% 30% 50% 50%/30% 30% 70% 70%;
         -webkit-border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
-        -moz-border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%
+        -moz-border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
     }
 
     67% {
         border-radius: 100% 60% 60% 100%/100% 100% 60% 60%;
         -webkit-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
-        -moz-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%
+        -moz-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
     }
 }
