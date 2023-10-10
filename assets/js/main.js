@@ -19,3 +19,7 @@ const typeAnimation = new Typed(".type-animation", {
   backDelay: 1000,
   loop: true
 })
+
+// Slider skills 
+const boxes = document.querySelectorAll("#box")
+const ani = new Animation(boxes, { opacity: 0 }, { easing: "ease-out" })
