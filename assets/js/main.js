@@ -58,3 +58,7 @@ function appendSkillsToMarquee(skills, marqueeId) {
 // Call the function for both marquee containers
 appendSkillsToMarquee(skills, "skills-container-first");
 appendSkillsToMarquee(skills, "skills-container-second");
+
+// Slider skills 
+const boxes = document.querySelectorAll("#box")
+const ani = new Animation(boxes, { opacity: 0 }, { easing: "ease-out" })
