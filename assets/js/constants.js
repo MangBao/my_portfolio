@@ -20,6 +20,9 @@ const twcssIcon = '../assets/img/icon/tailwindcss.png';
 const ubuntuIcon = '../assets/img/icon/ubuntu.png';
 const jiraIcon = '../assets/img/icon/jira.png';
 const seoIcon = '../assets/img/icon/seo.png';
+const bluecatDefault = '../assets/img/project-img/bluecat/bluecat_health_monitoring_website_image1.jpg';
+const bluecatLogoNonBg = '../assets/img/project-img/bluecat/bluecat_logo-removebg.png';
+const bluecatLogoBg = '../assets/img/project-img/bluecat/bluecat_logo.png';
 
 export {
     htmlIcon,
@@ -43,5 +46,8 @@ export {
     twcssIcon,
     ubuntuIcon,
     jiraIcon,
-    seoIcon
+    seoIcon,
+    bluecatDefault,
+    bluecatLogoNonBg,
+    bluecatLogoBg
 };
