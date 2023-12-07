@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./assets/css/projects.css">
     <link rel="stylesheet" href="./assets/css/skills.css">
     <link rel="stylesheet" href="./assets/css/experiences.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
 </head>
 
 <body>
@@ -27,20 +28,7 @@
                     <img src="./assets/img/bl33hIcon.png" alt="" class="img-logo">
                     <p class="txt-logo"></p>
                 </a>
-                <ul class="list-nav">
-                    <li class="nav-item">
-                        <a href="#about" class="nav-item-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#projects" class="nav-item-link">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#skills" class="nav-item-link">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-item-link">Contact</a>
-                    </li>
-                </ul>
+                <ul class="list-nav"></ul>
             </div>
         </nav>
         <div class="wrap-navbar-mb">
@@ -84,11 +72,6 @@
                                 And I'm a
                                 <span class="type-animation"></span>
                             </h3>
-                            <!-- <p>
-                                Disclaimer video is for educational purpose only. Copyright Disclaimer Under Section 107 of the
-                                Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news
-                                reporting, teaching, scholarship, and research.
-                            </p> -->
                         </div>
                         <div class="social-media">
                             <a href="" class="link-facebook">
@@ -271,45 +254,7 @@
                 </h2>
             </div>
             <div class="exp-content">
-                <ul class="timeline">
-                    <li class="timeline-event">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">April 2011 - heute</p>
-                            <h3>Geil,Danke! GmbH</h3>
-                            <h4>Geschäftsführerin eines Web-Studios</h4>
-                            <p><strong>Schwerpunkt: Frontend-Entwicklung</strong><br>Entwickeln von anspruchsvollen,
-                                animierten, responsive und adaptive Webseiten mit HTML5, SCSS, jQuery; für alle
-                                Browser, optimiert für Desktop, Notebook, Smartphones und Tablets (iOS, Android,
-                                Windows).</p>
-                            <p><strong>Projektmanagement mit Scrum</strong><br>Ständiges Verbessern des agilen
-                                Entwicklungsprozesses beispielsweise durch Grunt, Yeoman, GIT, JIRA und
-                                BrowserStack.</p>
-                        </div>
-                    </li>
-                    <li class="timeline-event">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">November 2009 - März 2011</p>
-                            <h3>Freelancer</h3>
-                            <h4>Designer und Autor</h4>
-                            <p>Konzeption, Design und Produktion von Digitalen Magazinen mit InDesign, der Adobe
-                                Digital Publishing Suite und HTML5. Co-Autorin der Fachbücher "Digitales
-                                Publizieren für Tablets" und "Adobe Digital Publishing Suite" erschienen im
-                                dpunkt.verlag.</p>
-                        </div>
-                    </li>
-                    <li class="timeline-event">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">April 2011 - heute</p>
-                            <h3>konplan gmbh</h3>
-                            <h4>IT-Consultant</h4>
-                            <p><strong>Systemarchitektur, Consulting</strong><br>Konzeption und Modellierung von
-                                Systemen und APIs für Digital Publishing und Entitlement nach SOA</p>
-                        </div>
-                    </li>
-                </ul>
+                <ul class="timeline"></ul>
             </div>
         </div>
     </div>
@@ -329,12 +274,58 @@
                     <span class="bounce">T</span>
                 </h2>
             </div>
+            <div class="contact-content">
+                <form class="form-container">
+                    <div class="headline"><span class="type-animation-contact"></span></div>
+                    <div class="form-line">
+                        <input type="text" class="form-input" value="">
+                        <label class="top">Name</label>
+                        <div class="check-label"></div>
+                    </div>
+                    <div class="form-line">
+                        <input type="text" class="form-input" required>
+                        <label>Your email *</label>
+                        <div class="error-label">Field is required!</div>
+                        <div class="check-label"></div>
+                    </div>
+                    <div class="form-line">
+                        <input type="text" class="form-input">
+                        <label>Subject</label>
+                        <div class="check-label"></div>
+                    </div>
+                    <div class="form-line">
+                        <textarea class="form-input" required></textarea>
+                        <label>Message</label>
+                        <div class="check-label"></div>
+                        <div class="error-label">Field is required!</div>
+                    </div>
+            
+                    <input type="button" class="form-button" value="Submit">
+                </form>
+            </div>
         </div>
     </div>
     <div class="footer">
-        <h2>
-            MAKE by MangBao
-        </h2>
+        <!-- <ul>
+            <li>
+                <a href="https://github.com/MangBao" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:mangbao1301@gmail.com" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/mang-bao-62a7051a7/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+        </ul> -->
+        <div>
+            <span>Make by <em>MangBao</em></span>
+        </div>
     </div>
     </div>
     <script src="./assets/js/cdnjs.cloudflare.com_ajax_libs_tsparticles_1.18.1_tsparticles.min.js"

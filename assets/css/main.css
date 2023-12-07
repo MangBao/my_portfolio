@@ -55,6 +55,19 @@ a {
   z-index: 1;
 }
 
+.footer {
+  width: 100%;
+  margin-top: 80px;
+  background-color: var(--primary-06);
+}
+
+.footer div{
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  color: var(--primary-02);
+}
+
 /* Tablet */
 @media (min-width: 768px) {
   .title h2 {

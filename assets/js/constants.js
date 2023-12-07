@@ -20,9 +20,18 @@ const twcssIcon = '../assets/img/icon/tailwindcss.png';
 const ubuntuIcon = '../assets/img/icon/ubuntu.png';
 const jiraIcon = '../assets/img/icon/jira.png';
 const seoIcon = '../assets/img/icon/seo.png';
+
 const bluecatDefault = '../assets/img/project-img/bluecat/bluecat_health_monitoring_website_image1.jpg';
 const bluecatLogoNonBg = '../assets/img/project-img/bluecat/bluecat_logo-removebg.png';
 const bluecatLogoBg = '../assets/img/project-img/bluecat/bluecat_logo.png';
+
+const pecanLogo = '../assets/img/project-img/pecan/pecan-deluxe-share.jpg'
+
+const menloLogo = '../assets/img/project-img/menlo/MenloSecurity_Logo.jpg'
+
+const homitaLogo = '../assets/img/project-img/homita/homita_bg.png'
+
+const ntuLogo = '../assets/img/project-img/ntu/ntu-bg.png'
 
 export {
     htmlIcon,
@@ -49,5 +58,9 @@ export {
     seoIcon,
     bluecatDefault,
     bluecatLogoNonBg,
-    bluecatLogoBg
+    bluecatLogoBg,
+    pecanLogo,
+    menloLogo,
+    homitaLogo,
+    ntuLogo
 };

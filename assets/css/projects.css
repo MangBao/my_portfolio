@@ -1,7 +1,7 @@
 .wrap-list-card {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
     /* Set the gap between cards */
 
     /* Adjust layout for tablets (landscape) */
@@ -108,7 +108,7 @@
     position: absolute;
     top: 25px;
     right: 25px;
-    /* color: #fff; */
+    color: var(--primary-02);
     font-weight: 300;
     font-size: 14px;
     transition: 0.8s;
@@ -157,7 +157,7 @@
     left: 0;
     bottom: 0;
     padding: 25px 25px 35px 25px;
-    background: rgba(0, 0, 0, 0.78);
+    background: rgba(183, 108, 108, 0.78);
     /* color: #fff; */
     font-weight: 300;
     opacity: 0;
@@ -179,13 +179,16 @@
     position: absolute;
     bottom: 15px;
     right: 25px;
-    /* color: #fff; */
     font-size: 14px;
     border-bottom: 1px solid #fff;
     opacity: 0;
     transform: translateY(100%);
     transition: 0.6s;
     cursor: pointer;
+}
+
+.card .description .view a {
+    color: var(--primary-02);
 }
 
 .card .description .content-desc .title {
